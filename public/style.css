@@ -1,0 +1,166 @@
+#main {
+    min-height: 100svh;
+    display: grid;
+    grid-template-columns: 330px 1fr;
+    background-image: url(https://www.graphicwallet.com/wp-content/uploads/2018/06/Wooden-Empty-Table-of-Blurred-Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(https://wallpaperaccess.com/full/2614493.jpg);
+    background-position: center;
+
+}
+
+#branding {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #21f294;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#sidebar img {
+    width: 250px;
+    height: 200px;
+    margin-top: 32px;
+    border-radius: 10px;
+}
+
+#content {
+    padding: 32px;
+}
+
+#main-nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 24px;
+}
+
+#main nav a {
+    padding: 16px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: transform 0.3s ease;
+    font-size: 30px;
+    text-align: center;
+}
+
+#main nav a:hover {
+    background-color: #4df88f;
+    transform: translateY(-3px);
+}
+
+.containers {
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 300px;
+    height: 300px;
+    width: 400px;
+    background-color: rgb(218, 255, 219);
+    transition: transform 0.3s; /* Adding transition for smooth effect */
+}
+
+.containers:hover {
+    transform: scale(1.05); /* Zoom in effect on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adding shadow effect on hover */
+}
+
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-top: -120px;
+}
+.container1{
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    height: 300px;
+    width: 400px;
+    margin-left: -150px;
+    background-color: rgb(218, 255, 219);
+    transition: transform 0.3s;
+}
+.container1:hover {
+    transform: scale(1.05); /* Zoom in effect on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adding shadow effect on hover */
+}
+
+.containers h2,
+.container1 h2 {
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+.title{
+    border: 1px solid black;
+    border-radius: 50px;
+}
+.foods{
+    height: 190px;
+    width: 350px;
+    border-radius: 10px;
+}
+.drinks{
+    height: 190px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.card-body{
+    background-color: rgb(173, 173, 173);
+    border-radius: 10px;
+}
+
+.cards-containers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.food-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.food-name {
+    padding: 10px;
+    background-color: #f2f2f2;
+    text-align: center;
+    font-weight: bold;
+}
+.button{
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    height: 30px;
+    background-color: white;
+}
+
+
+
